@@ -1,0 +1,81 @@
+/* Home.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#home {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to bottom, #b5ddff, #edf7ff);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentacion {
+  font-size: 12.5em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #191919; 
+  animation: fadeIn 1s ease-out;
+}
+
+.description {
+  font-size: 1.5em;
+  color: black; 
+}
+
+/* Mouse */
+
+.mouse{
+  width: 25px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 160px;
+  margin-bottom: 50px;
+}
+
+.mouse-wheel{
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel 1s linear infinite;
+}
+
+@keyframes move-wheel {
+  0%{
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100%{
+    opacity: 1;
+    transform: translatey(1rem);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

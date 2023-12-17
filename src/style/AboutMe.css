@@ -1,0 +1,42 @@
+#about-me {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to bottom, #b5ddff, #edf7ff);
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.description-seccition {
+  font-size: 1.2em;
+  margin-bottom: 90px;
+  max-width: 500px;
+}
+
+.body-secction-about {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.section-know-me {
+    flex: 1;
+    padding: 20px;
+}
+
+.section-skills {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contenedor-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

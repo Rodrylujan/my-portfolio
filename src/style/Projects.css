@@ -1,0 +1,69 @@
+/* Projects */
+
+
+#projects{    
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to bottom, #b5ddff, #edf7ff);
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-section-projects{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Project */
+
+/* Proyecto.css (o el nombre que prefieras) */
+
+.contenedor-project {
+    height: 80%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-project {
+    max-width: 800px; /* Ajusta el ancho máximo según tus preferencias */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+  }
+  
+  .body-contenedor-project {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .links-project {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconos {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px; /* Ajusta el margen entre íconos según tus preferencias */
+  }
+  
+  /* Otros estilos según tus necesidades */
+  

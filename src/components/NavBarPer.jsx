@@ -5,7 +5,7 @@ export const NavBarPer = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav-bar-principal" variant="dark">
       <Container className="contenedor-nav">
-        <Navbar.Brand href="#"><h2>Yober Rodriguez</h2></Navbar.Brand>
+        <Navbar.Brand href="#"><h2 className="title">Yober Rodriguez</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="nav-bar-personalizado" id="responsive-navbar-nav" >
           <Nav>

@@ -7,15 +7,13 @@ import logoNode from '../images/skills/node.svg'
 import logoCsharp from '../images/skills/csharp.svg'
 import { Nav } from "react-bootstrap";
 import '../style/AboutMe.css'
+import { HeaderSecction } from "./HeaderSecction";
 
 export const AboutMe = () => {
   return (
     <section id="about-me">
-      <h1>About me</h1>
-      <div className="description-seccition">
-        In this section, you will find information about my skills and the
-        technologies I work with
-      </div>
+      <HeaderSecction subTitle="About me" description="In this section, you will find information about my skills and the
+        technologies I work with"></HeaderSecction>
       <div className="body-secction-about">
         <div className="section-know-me">
           <h2>Get to Know me</h2>
